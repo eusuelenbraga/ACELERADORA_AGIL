@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Galeria de Fotos</title>
+   
+</head>
+<body>
+    <div class="header">
+        <h1>Galeria de Fotos</h1>
+    </div>
+    <div class="search-bar">
+        <input type="text" id="search" placeholder="Digite palavras-chave para filtrar..." oninput="filterImages()">
+        <button onclick="filterImages()">
+            🔍
+        </button>
+    </div>
+    <div class="gallery" id="gallery">
+        <div class="gallery-item" data-keywords="natureza floresta árvores">
+            <img src="https://via.placeholder.com/200" alt="Natureza">
+            <div class="caption">Natureza</div>
+        </div>
+        <div class="gallery-item" data-keywords="cidade prédios noite">
+            <img src="https://via.placeholder.com/200" alt="Cidade">
+            <div class="caption">Cidade</div>
+        </div>
+        <div class="gallery-item" data-keywords="praia mar areia">
+            <img src="https://via.placeholder.com/200" alt="Praia">
+            <div class="caption">Praia</div>
+        </div>
+        <div class="gallery-item" data-keywords="montanha neve paisagem">
+            <img src="https://via.placeholder.com/200" alt="Montanha">
+            <div class="caption">Montanha</div>
+        </div>
+    </div>
+    <footer>
+        © 2024 Galeria de Fotos feito por Suelen Braga. Todos os direitos reservados.
+    </footer>
+    <script src="script.js" defer></script>
+
+</body>
+</html>
+
+
