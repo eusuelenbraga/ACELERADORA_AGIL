@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex-grow: 1;
+}
+
+h1{
+    font-size: x-large;
+    padding-top: 20px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
